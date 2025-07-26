@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <body>
-        <h1>This is a heading</h1>
-        <p>This is a paragraph</p>
-        <button>Click me!</button>
-    </body>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        button {
+            background: yellow;
+        }
+
+        .highlight {
+            background: yellow;
+        }
+
+        li{
+            color: green;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        #main-title {
+            color: purple;
+        }
+    </style>
+    <title>My Practice Page</title>
 </head>
+<body>
+    <h1 id = "main-title">This is a heading</h1>
+    <p class = "text-content">This is a paragraph</p>
+    <p class = "highlight text-content">This is a second paragraph. Here's a photo:</p>
+    <img src = "photo.jpeg">
+    <p class = "text-content">Here's a list with three items</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button>Click me!</button>
+</body>
 </html>
